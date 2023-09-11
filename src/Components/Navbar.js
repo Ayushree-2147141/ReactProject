@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../logo.svg';
 
 function Navbar() {
+ 
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -27,7 +28,7 @@ function Navbar() {
                   <a className="nav-link" tabindex="-1" aria-disabled="true">Sports</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" tabindex="-1" aria-disabled="true">Contact</a>
+                  <a className="nav-link" tabindex="-1" aria-disabled="true" >Contact</a>
                 </li>
               </ul>
 
