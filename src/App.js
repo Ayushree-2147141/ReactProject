@@ -5,6 +5,10 @@ import Content from './Components/Content';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Singers from './Components/Singers';
+import Contact from './Components/Contact';
+import Multifunctional from './Components/Multifunctional';
+import Parent from './Components/Parent';
+import ParentFunc from './Components/ParentFunc';
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <Navbar></Navbar>
       <Content></Content>
       <Singers></Singers>
+      <Contact></Contact>
+      <Multifunctional></Multifunctional>
+      <Parent />
+      <ParentFunc />
       <Footer></Footer>
     </div>
   );
